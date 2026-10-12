@@ -1,0 +1,41 @@
+name: Update profile animation
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - .github/workflows/profile-snake.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Adam-yam
+          outputs: |
+            dist/github-snake.svg?color_snake=#3b82f6&color_dots=#ebedf0,#c9ddfa,#92b9f4,#6296e4,#356cc0
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#78aaff&color_dots=#161b22,#233451,#304e79,#4872aa,#6b9fef
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish animation files
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: profile-assets
+          publish_dir: ./dist
+          keep_files: true
+          commit_message: Update profile animation

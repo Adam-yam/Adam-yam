@@ -6,7 +6,7 @@
 
 <p align="center">좋아하는 것을 더 쉽게 즐기고, 일상의 작은 불편을 줄이는 도구를 만듭니다.<br>팬들을 위한 웹사이트부터 데스크톱 프로그램, 모바일 앱, 브라우저 확장까지.</p>
 
-<p align="center"><a href="https://adam-yam.github.io/SCENE-FLIX/">센플릭스 방문</a> &nbsp; · &nbsp; <a href="https://www.youtube.com/@SCENE-FLIX1">유튜브</a> &nbsp; · &nbsp; <a href="https://github.com/Adam-yam?tab=repositories">전체 저장소</a></p>
+<p align="center"><a href="https://adam-yam.github.io/SCENE-FLIX/">센플릭스 방문</a> &nbsp; · &nbsp; </a> &nbsp; · &nbsp; <a href="https://github.com/Adam-yam?tab=repositories">전체 저장소</a></p>
 
 <br>
 

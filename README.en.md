@@ -6,7 +6,7 @@
 
 <p align="center">I make tools that help people enjoy what they love and simplify everyday tasks.<br>Fan websites, desktop companions, mobile apps, and browser extensions.</p>
 
-<p align="center"><a href="https://adam-yam.github.io/SCENE-FLIX/">Visit SCENE-FLIX</a> &nbsp; · &nbsp; <a href="https://www.youtube.com/@SCENE-FLIX1">YouTube</a> &nbsp; · &nbsp; <a href="https://github.com/Adam-yam?tab=repositories">All repositories</a></p>
+<p align="center"><a href="https://adam-yam.github.io/SCENE-FLIX/">Visit SCENE-FLIX</a> &nbsp; · </a> &nbsp; · &nbsp; <a href="https://github.com/Adam-yam?tab=repositories">All repositories</a></p>
 
 <br>
 
